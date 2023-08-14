@@ -1,0 +1,6 @@
+.app-container-wrap {
+  width: 75%;
+  @media (max-width: 767px) {
+    width: 90%;
+  }
+}
