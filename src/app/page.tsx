@@ -1,6 +1,4 @@
 import AppContainer from './components/AppContainer'
-import ContactInfo from './components/contacts/ContactInfo';
-import ContactForm from './components/form/ContactForm'
 import { ReactNode } from 'react';
 
 interface HomePageProps {
