@@ -5,7 +5,7 @@ import ContactInfo from './contacts/ContactInfo';
 import ContactForm from './form/ContactForm';
 import './AppContainer.scss';
 
-const AppContainer: React.FC<{ children: ReactNode }> = ({ children }) => (
+const AppContainer: React.FC<{ children?: ReactNode }> = ({ children }) => (
   <div>
     <Header />
       <section className="text-center">

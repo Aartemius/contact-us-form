@@ -1,15 +1,8 @@
 import AppContainer from './components/AppContainer'
-import { ReactNode } from 'react';
 
-interface HomePageProps {
-  children?: ReactNode;
-}
-
-const Home: React.FC<HomePageProps> = ({ children }) => {
+const Home = () => {
   return (
-    <AppContainer>
-      {children}
-    </AppContainer>
+    <AppContainer />
   )
 }
 
